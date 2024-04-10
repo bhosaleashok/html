@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 50px;
+            width: 200px;
+            margin: auto;
+        }
+        .b{
+            height: 100px; 
+            width: 200px;
+            display: flex;
+            justify-content:center; 
+            align-items: center; 
+            margin: auto;
+        }
+        button{
+            font-size: xx-large;
+        }
+        .c{
+            height: 500px; width: 800px; border: 1px solid; margin: auto;
+            position: relative;
+            overflow: hidden;
+        }
+        img{
+            height: 500px;
+            width: 800px;
+            /* transform: rotate(90deg); */
+        }
+        #data{
+        color: white;
+            position: absolute;
+            top: 20px;
+        }
+    </style>
+ </head>
+ <body>
+    <div class="a"><input type="text" src="" id="demo"></div>
+    <div class="b"><button onclick="fun(demo.value)">Uplode</button></div>
+    <div class="c"><img src=  "https://img.pikbest.com/origin/09/42/87/48BpIkbEsTGJV.jpg!w700wp" id="done">
+        <!-- <h1 id="data" >keshav</h1> -->
+    </div>
+     <!-- <input type="text" name="" id="inp">
+    <button onclick="add()">add</button>
+    <button onclick="rrmove()">remove</button>
+    <input type="color" name="" value="#000000" id="" onchange="ccolorchange(this.value)">
+    <input type="range" min="0" max="90" name="" id="" onchange="rotete1(this.value)">
+    <input type="range"  min="10" max="100"  onchange="brietness(this.value)">
+    <input type="range" min="10" max="100" onchange="opacity1(this.value)"> -->
+    <script> 
+   function fun(org){
+        document.getElementById("done").src=""+org;
+  }
+
+  //       function rotete1(t){
+                
+  //           document.getElementById('done').style.transform=`rotate(${t}deg)`;
+  //       }
+  //       function brietness(a){
+  //   document.getElementById('done').style.filter=`brightness(${a}%)`;
+  // }
+  // function opacity1(o){
+  //   document.getElementById("done").style.filter=`opacity(${o}%)`;
+  // }
+
+
+
+
+
+
+
+//      function fun(org){
+//         document.getElementById("done").src=""+org;
+//   }
+  // function add(){
+  //   let a=document.getElementById('inp').value;
+  //   document.getElementById('data').innerText=a;
+
+  // }
+
+  // function rrmove(){
+  //   document.getElementById('data').innerText="";
+
+  // }
+
+  // function ccolorchange(t){
+  //   console.log(t)
+  //   document.getElementById('data').style.color=`${t}`  
+  // }
+ 
+    </script>
+
+ </body>
+ </html>

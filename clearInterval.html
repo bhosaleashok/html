@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+     <button onclick="a=setInterval(myfun,1000)">strat time</button>
+     <button onclick="sec()">stop time</button>
+
+     <p id="demo2"></p>
+
+     <button onclick="b=setInterval(myfunction,1000)">strat</button>
+     <button onclick="off">stop</button>
+  <script>
+
+    //stop and strat
+   let a;
+    function myfun()
+    {
+        let date = new Date();
+       document.getElementById("demo").innerHTML = date.toLocaleTimeString()
+    }
+function sec()
+{
+    clearInterval(a);
+}
+
+
+let b;
+function myfunction(){
+
+    let date = new Date ();
+    document.getElementById("demo2"). innerHTML =date . toLocaleTimeString()
+
+}
+function off()
+{
+    clearInterval(b)
+}
+
+
+
+setInterval(on,1000)
+function on()
+{
+    let pr=document.getElementById("demo3");
+    pr.innerHTML+="  pooja"
+}
+</script>
+<h1 id="demo3"></h1>
+ <h2 id="demo6"></h2>
+<script>
+    setInterval(pen,2000)
+    function pen()
+    {
+        let pr=document.getElementById("demo6");
+        pr.innerHTML +="  jagtap";
+    }
+</script>
+</body>
+</html> -->
+<script>
+    let a="10" + "true"    /*Implicit consversion*/
+    console.log(a)
+
+    let b=Number(a)    /*Explicit conversion*/
+    console.log(b)
+</script>
+<script>
+    document.write("=>=>=>")
+</script>
